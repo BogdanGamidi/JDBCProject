@@ -1,7 +1,3 @@
-import Utils.CRUDPosts;
-import Utils.CRUDUsers;
-import tables.Users;
-
 public class App {
     public static void main(String[] args) {
 

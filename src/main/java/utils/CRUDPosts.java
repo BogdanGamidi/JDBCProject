@@ -1,7 +1,7 @@
-package Utils;
+package utils;
 
-import classes.SomePosts;
-import tables.Posts;
+import entities.Posts;
+import entities.SomePosts;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -32,9 +32,9 @@ public class CRUDPosts {
                 while (resultSet.next()) {
                     int id = resultSet.getInt("id");
                     String content = resultSet.getString("content_of_post");
-                    int user_id = resultSet.getInt("user_id");
+                    int userId = resultSet.getInt("user_id");
 
-                    posts.add(new Posts(id, content, user_id));
+                    posts.add(new Posts(id, content, userId));
                 }
             }
 

@@ -1,6 +1,6 @@
-package Utils;
+package utils;
 
-import tables.Users;
+import entities.Users;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
