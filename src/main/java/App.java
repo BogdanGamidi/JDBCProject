@@ -1,3 +1,5 @@
+import entities.Users;
+
 public class App {
     public static void main(String[] args) {
 
